@@ -7,16 +7,38 @@
     android:background="#ADD8E6"
     tools:context=".MainActivity">
 
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="141dp"
+        android:layout_height="159dp"
+        android:src="@android:drawable/btn_star"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="484dp" />
+
     <TextView
+        android:id="@+id/Has5518TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hassan Noorani"
         android:textColor="#F44336"
         android:textStyle="bold"
-        app:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/Has5518switch1"
+        android:layout_width="117dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="311dp"
+        android:text="On/Off"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Has5518TextView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
