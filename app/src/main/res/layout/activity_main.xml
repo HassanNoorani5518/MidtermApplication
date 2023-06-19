@@ -12,14 +12,16 @@
         android:layout_width="141dp"
         android:layout_height="159dp"
         android:src="@android:drawable/btn_star"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="484dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Has5518switch1" />
 
     <TextView
         android:id="@+id/Has5518TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hassan Noorani"
+        android:text="@string/hassan_noorani"
         android:textColor="#F44336"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
